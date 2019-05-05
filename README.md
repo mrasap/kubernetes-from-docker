@@ -1,5 +1,7 @@
 # kubernetes-from-docker
-Demo app to connect to a kubernetes cluster from within a docker container
+Demo app to connect to a kubernetes cluster from within a docker container. 
+   
+The use-case is to be able to deploy helm charts on a kubernetes cluster from any pipeline. In my case, my university runs gitlab on a private server and I am therefore not able to use the kubernetes operations that gitlab has to offer. Instead, I spin up this docker image to connect to my kubernetes cluster and operate from there.
 
 This app expects a flask-kubeconfig.yaml file containing the credentials from your kubernetes cluster.
 
