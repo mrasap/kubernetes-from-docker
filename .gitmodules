@@ -1,0 +1,3 @@
+[submodule "flask-kubernetes-helm"]
+	path = flask-kubernetes-helm
+	url = git@github.com:mrasap/flask-kubernetes-helm.git
